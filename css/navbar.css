@@ -1,0 +1,37 @@
+.background-white {
+  margin-top: 60px;
+  background: #ffffff;
+  box-shadow: 4px 4px 100px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.logo {
+  width: 50px;
+  opacity: 0.6;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-item a {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.nav-talk {
+  background: linear-gradient(252.34deg, #f1b8d2 -4.03%, #95bbe9 112.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .nav-item a {
+    margin-top: 10px;
+  }
+}
